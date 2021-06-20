@@ -1,4 +1,4 @@
-:root{
+:root {
     --vermelho:#E50914;
     --preta: #141414;
 }
@@ -9,31 +9,55 @@
     box-sizing: border-box;
 }
 
-body{
+/* Elementos base */
+
+body {
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
-header.container{
+header .container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-header.logo{
+header .logo {
     margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size: 40px;
 }
 
-header nav a{
+header nav a {
     text-decoration: none;
     color: #AAA;
     margin-right: 10px;
 }
 
-header nav a:hover{
+header nav a:hover {
     color: #fff;
+}
+
+/* Filme principal */
+
+.filme-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('../img/capa-lucifer.jpg');
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 40px;
+}
+
+.titulo {
+    font-size: 40px;
 }
