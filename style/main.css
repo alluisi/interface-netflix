@@ -13,7 +13,7 @@
 
 body {
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -63,7 +63,7 @@ header nav a:hover {
 .filme-principal .titulo {
     font-size: 60px;
     font-family: 'Merienda One', cursive;
-    color: #DAA520;
+    color: #fef65e;
 }
 
 .botao {
@@ -100,4 +100,8 @@ header nav a:hover {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carossel-filmes {
+    margin-top: 5px;
 }
